@@ -1,28 +1,30 @@
 {
-  "name": "chatbot-nodejs-heroku-starter",
-  "version": "1.0.0",
-  "description": "อบรมพัฒนา Line Chatbot Node.js และ Heroku จัดโดย I GEAR GEEK และ Chiangmai&amp;Co",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Thainainan03/chatbot-nodejs-heroku-starter.git"
-  },
-  "keywords": [
-    "chatbot"
-  ],
-  "author": "I GEAR GEEK",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Thainainan03/chatbot-nodejs-heroku-starter/issues"
-  },
-  "homepage": "https://github.com/Thainainan03/chatbot-nodejs-heroku-starter#readme",
-  "dependencies": {
-    "express": "^4.16.4"
-  },
-  "devDependencies": {
-    "nodemon": "^1.18.10"
-  }
+    "name": "chatbot-nodejs-heroku-starter",
+    "version": "1.0.0",
+    "description": "อบรมพัฒนา Line Chatbot Node.js และ Heroku จัดโดย I GEAR GEEK และ Chiangmai&amp;Co",
+    "main": "server.js",
+    "scripts": {
+        "dev": "nodemon",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Thainainan03/chatbot-nodejs-heroku-starter.git"
+    },
+    "keywords": [
+        "chatbot"
+    ],
+    "author": "I GEAR GEEK",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Thainainan03/chatbot-nodejs-heroku-starter/issues"
+    },
+    "homepage": "https://github.com/Thainainan03/chatbot-nodejs-heroku-starter#readme",
+    "dependencies": {
+        "@line/bot-sdk": "^6.4.0",
+        "express": "^4.16.4"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.10"
+    }
 }
